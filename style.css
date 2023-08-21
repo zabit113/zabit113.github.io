@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Poppins", Helvetica;
+}
+.cabeza{
+  background: #40513B;
+}
+.btns{
+  background: #40513B;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: darkblue;
+}
+.vineta {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+.vineta li::before {
+    content: ""; 
+    display: inline-block; 
+    width: 40px; 
+    height: 16px; 
+    background-image: url('https://cdn.pixabay.com/photo/2012/04/10/17/23/trawler-26557_1280.png'); 
+    background-size: cover; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 8px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(64, 81, 59, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-texto {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+/* Footer */
+  #pie {
+    background-color: #40513B;
+  }
+
+ 
+  #pie p {
+    margin: 0; 
+  }
+
+
+  .iconos {
+    display: flex;
+    justify-content: center;
+    background-color: #40513B;
+    text-decoration: none;
+    
+}
+  .iconos .d-flex {
+    justify-content: center; 
+  }
+
+  .iconos a {
+    color: #40513B; 
+    background-color: white;
+    margin: 50px; 
+    font-size: 24px;
+    border-radius: 50%; 
+    width: 60px; 
+    height: 60px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    text-decoration: none; 
+  }
+.iconos a:hover { 
+  text-decoration: none; 
+} 
+ 
+.iconos a:hover i { 
+  color: #40513B; 
+} 
+
